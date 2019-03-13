@@ -168,7 +168,7 @@ header{
 .masthead {
   margin:0 0 40px 0;
   text-align: center;
-  background-image: linear-gradient(rgba(151, 110, 110, 0.452), rgba(138, 112, 112, 0.5)),url('8.jpg');
+  background-image: linear-gradient(rgba(151, 110, 110, 0.452), rgba(138, 112, 112, 0.5)),url('/img/8.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
