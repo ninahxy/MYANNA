@@ -1,51 +1,48 @@
 
-body{
+body {
     font-family: helvetica;
     font-size: 1em;
-    
-    
 }
 
-h1{
-
-  font-size: 1.3em;
+h1 {
+  font-size: 3em;
   line-height: 1.8em;
-
-
 }
 
-h2{
-  font-family: open-sans,sans-serif;
+h2 {
+  font-family: open-sans, sans-serif;
   font-weight: 600;
   font-style: normal;
-  text-align: left ;
-  font-size: 1em;
+  font-size: 1.5em;
+}
+
+.line{
+  text-align: left;
   padding: 0.8em 0;
   margin: 2em 0 0 0;
   border-bottom: 2px solid rgba(31, 26, 26, 0.048);
-
-
 }
 
+
+
 .navbar {
-    overflow: auto;
-    background-color:rgba(158, 137, 137, 0.473);
- padding: 0 16px 0 0;
+  overflow: auto;
+  background-color:rgba(158, 137, 137, 0.473);
+  padding: 0 16px 0 0;
   }
   
-  .navbar a {
-    float: right;
-    padding: 9px 9px 0;
-    color: rgb(85, 76, 76);
-    display: none;
+.navbar a {
+  float: right;
+  padding: 9px 9px 0;
+  color: rgb(85, 76, 76);
+  display: none;
   }
   
-  .navbar a:hover {
-    color: rgb(0, 0, 0);
+.navbar a:hover {
+  color: rgb(0, 0, 0);
   }
   
 header{
-
   position: fixed;
   top: 0;
   left: 0;
@@ -54,57 +51,51 @@ header{
 }
 
 .promo{
-
-    background-color: #ddd;
-    margin: 0 0;
-    padding: 0.5em;
-    text-align: center;
-    font-size: 0.7em;
-    font-weight: 500;
+  background-color: #ddd;
+  margin: 0 0;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: 500;
 
 }
 
-
-
 .logo{
-    font-family: philosopher,sans-serif;
-    font-weight: 700;
-    font-size: 3em;
-    font-style: normal;
-    text-align: center;
-    margin: 0 ;
-    padding: 5px 0 20px 0;
+  font-family: philosopher, sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  font-style: normal;
+  text-align: center;
+  margin: 0 ;
+  padding: 5px 0 20px 0;
   background-color: rgba(158, 137, 137, 0.473);
-
-
 }
 
 .logo a{
-    color: rgb(37, 27, 27);
-    text-decoration: none;
+  color: rgb(37, 27, 27);
+  text-decoration: none;
 }
 
 .menu-item{
-    display: block;
-    margin: 0 0.25em;
-    font-family: poiret-one;
-    font-weight: 900;
-    font-style: normal;
+  display: block;
+  margin: 0 0.25em;
+  font-family: poiret-one;
+  font-weight: 900;
+  font-style: normal;
     
 }
 
 .menu-item a:hover{
-    color: rgb(150, 47, 47);
+  color: rgb(150, 47, 47);
 }
 
 .menu-item a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .topnav {
   background-color: rgba(255, 255, 255, 0.26);
-
   width: 100%;
   text-align: left; 
   overflow: auto;
@@ -123,23 +114,19 @@ header{
 }
 
 .topnav a:hover {
-
   border-bottom: 2px solid rgb(31, 26, 26);
-
 }
 
 
 
 .hamberger{
   background-color: rgba(255, 255, 255, 0.308);
-
   float:right;
   width:100% ;
   padding: 4px;
 }
 
 .hamberger a{
-
   text-decoration: none;
   color: rgb(32, 30, 30);
   font-size: 1.3em;
@@ -151,7 +138,6 @@ header{
   text-align: left;
   margin: 0  0.2em 0  0.8em;
 }
-
 
 .fa-user{
   margin: 0 0.6em 0.3em 0.6em ;
@@ -176,16 +162,17 @@ header{
   height: 700px;
 }
 
-.hero-text {
 
+.hero-text {
   margin: 10px;
   text-align: bottom;
   color: rgb(7, 7, 7);
   padding: 20px;
 }
 
+
 .hero-text p {
-line-height: 1.4em;
+  line-height: 1.4em;
 }
 
 .hero-text h1 {
@@ -195,17 +182,15 @@ line-height: 1.4em;
   
 
 .hero-text1 {
-
   margin: 15px;
   padding: 20px 20px;
   text-align: right ;
   color: rgb(7, 7, 7);
 }
+
 .hero-text1 p {
-line-height: 1.4em;
-padding: 20px 0 20px 0;
-
-
+  line-height: 1.4em;
+  padding: 20px 0 20px 0;
 }
   
 .categories{
@@ -236,10 +221,8 @@ padding: 20px 0 20px 0;
 }
 
 .categories a:hover {
-
   background-color: rgba(78, 76, 76, 0.24);
   color: rgb(255, 255, 255);
-
 }
 
 
@@ -250,14 +233,12 @@ padding: 20px 0 20px 0;
   flex-wrap: wrap;
   padding: 0 30px;
   background-color: rgb(255, 255, 255)
-
 }
 
 .row p a{
   line-height: 2.3em;
   text-decoration: none;
   color:black;
-
 }
 
 
@@ -269,40 +250,46 @@ padding: 20px 0 20px 0;
 
 .column img {
   margin-top: 8px;
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 
 .footer-body{
-
   background-color: rgba(158, 137, 137, 0.473);
   padding: 35px;
   margin: 30px 0 0;
 }
 
 .text{
-
   text-align: left;
-  font-size: 14px;
   display: inline-block;
   text-align: center;
   display: grid;
   grid-template-columns:1fr  ;
   grid-gap: 30px;
   padding: 1em;
-  font-size: 11px;
   margin: 0;
 }
-.text-left{
 
-  text-align: center;
+.text a{
+  text-decoration: none;
+  color: black;
+  line-height: 1.5em;
+  font-size: 20em;
 
 }
+
+.text a:hover{
+  text-decoration: underline;
+  color: rgb(54, 53, 53);
+}
+
+
 
 
 .form-inline {  
-     display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .form-inline label {
@@ -334,35 +321,49 @@ padding: 20px 0 20px 0;
 .bottom{
   background-color: rgba(168, 143, 143, 0.712);
   padding: 12px;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .text-bottom{
-
   text-align: left;
-  font-size: 12px;
-  margin: 0 22px;
+  font-size: 0.8em;
+  margin: 0 0 0 2.4em;
   display: inline-block;
 }
 
+.text-bottom a{
+
+  text-decoration: none;
+  color: black;
+}
+
+
 .social{
-
-  float: right;
   margin: 0 30px 0;
+  text-align: right;
+}
 
+.social li{
+  display: inline-block;
+  padding: 0 10px 0 0;
+  text-decoration: none;
 }
 
 .social a{
-
   color: rgb(17, 17, 17);
-  padding: 0 10px 0 0;
-  text-decoration: none;
-
 }
+
+.social a:hover{
+  color: rgb(17, 17, 17);
+}
+
 
 .button {
   font-family: josefin-sans;
   font-weight: 300;
   font-style: normal;
+  font-size: 1em;
   border: 2px solid black;
   outline: 0;
   display: inline-block;
@@ -372,7 +373,6 @@ padding: 20px 0 20px 0;
   text-align: center;
   cursor: pointer;
   margin: 12px 0;
-
 }
 
 .button:hover {
@@ -382,8 +382,9 @@ padding: 20px 0 20px 0;
 
 
 @media screen and (min-width: 600px) {
+  
   .hamberger{
-    display: none;
+   display: none;
   }
   
   .topnav {
@@ -391,45 +392,40 @@ padding: 20px 0 20px 0;
     text-align: center; 
     overflow: auto;
     display: inline-block;
+  }
 
+  .topnav li {
+   display: inline-block;
   }
-  .topnav a {
-    display: inline-block;
-  }
+
  .navbar a {
-
   display: inline-block;
  }
 
  .column {
   grid-template-columns: 1fr 1fr;
 }
-.text{
-
+ .text{
   grid-template-columns:1fr 1fr 1fr 1fr  ;
   grid-gap: 10px;
   text-align: right;
-
  }
+ 
  .text-left{
-   text-align: left;
+  text-align: left;
  }
+
  .form-inline{
-  
-   display: flex;
-   flex-flow: row wrap;
-   align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
  }
-
 }
-
 
 @media screen and (min-width: 800px) {
+  
   .column {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  .prod-img {
-    
-  }
-  
+  }    
 }
+  
